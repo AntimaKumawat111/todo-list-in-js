@@ -15,7 +15,7 @@
   .mainContanir {
     height: 400px;
     width: 800px;
-    background-color: white;
+    background-color: rgb(245, 242, 242);
     border: 1px solid rgb(237, 227, 227);
     box-shadow: 2px 5px 9px rgb(211, 210, 210);
     position: relative;
@@ -28,16 +28,9 @@
     margin: 25px;
   }
   
-  .mainContanir .inpDiv {
+  .inpDiv {
     display: flex;
-    padding-left: 10%;
     margin: 20px;
-  }
-  
-  .inpDiv
-  {
-    display: flex;
-    align-items: center;
     justify-content: center;
   }
   
@@ -45,6 +38,7 @@
     margin-right: 5px;
     width: 50%;
     border: 1px solid black;
+    outline: none;
     border-radius: 10px;
     padding: 5px;
   }
@@ -54,23 +48,19 @@
     outline: none;
   }
   
-  
   .addbtn {
     border-radius: 10px;
     font-size: 25px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 10px;
     border: 1px solid black;
     background-color: rgb(175, 175, 192);
     color: white;
+    cursor: pointer;
   }
   
   .addbtn:focus {
     background-color: rgb(87, 87, 229);
-    border: 1px solid black;
-    /* box-shadow: 0px 2px 0.5px rgb(137, 127, 127); */
-  
   }
   
   .showWorks {
@@ -81,12 +71,6 @@
   .showWorks p {
     padding: 10px;
     border-bottom: 1px solid rgb(205, 187, 187);
-  }
-  
-  .showWorks .editIcon {
-    position: absolute;
-    cursor: pointer;
-    left: 75%;
   }
   
   .showWorks .deleteIcon {
